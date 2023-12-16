@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Personal-Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+    <script src="https://kit.fontawesome.com/0771ec629f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+     <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer/Front end Developer</p>
+          <h1>Hi, I'm <span>Siddhi</span><br></h1><h2>From Bhandara(India)</h2>
+        </div>
+     </div>
+  </div>
+<!-------------------about--------------------->
+<div id="about">
+    <div class="container">
+      <div class="row">
+        
+        <div class="about-col-1">
+          <img src="images/user.JPG">
+        </div>
+        
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I have completed my graduation by 2023 from S.B. Jain institute of Technology Management and Research, Nagpur in field of Computer science and engineering 
+            with an Aggregate 77.08% and now I am seeking opportunities to join a company that can help me in enhancing my skills, strengthening my knowledge and realizing my potential. I am willing to explore a wide variety of opportunities that can help me gain perspective.</p><br>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              
+            </div>
+
+           
+            <div class="tab-contents  active-tab" id="education">
+              <ul>
+                <li><span>2019-2023(Graduate) <b>[ B.E(CSE) ]</b></span><br> S.B.Jain Institute of Technology Management and Research,Nagpur</li><br>
+                <li><span>2017-2019 <b>[ HSC(Science) ]</b></span><br>Lal Bahadur Shastri High School & Junior College, Bhandara</li><br>
+                <li><span>2016-2017 <b>[ SSC(Science) ]</b></span><br>SSC(Science) Jaycees Convent Bhandara Senior Secondary School, Bhandara</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents " id="skills">
+              <ul>
+                <li><span>Front-end Development</span><br>Creating Websites</li><br>
+                <li><span>Web Development</span><br>Web App Development</li><br>
+                <li><span>Basic Skill Include</span><br>C, CPP, HTML5, CSS3, Javascript, MySQL, Basics of: MS Excel, MS PowerPoint & MS Word, Python, OOPS, Git and Github.</li>
+              </ul>
+            </div>
+            
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Fresher</span><br>Currently I am seeking opportunities to join a company that can help me in enhancing my skills, strengthening my knowledge and realizing my potential.</li><br>
+                
+              </ul>
+            </div>
+            
+
+        </div>
+
+      </div>
+    </div>
+</div>
+
+
+<!------------------services---------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      
+      <div>
+        <i class="fa-sharp fa-solid fa-code"></i>
+         <h2>Web Design</h2>
+         <p>wjha sm dvcs g nd xcbjl, sxc bhj sbdxvjch mbd sxc j
+          kj kjkjkhk hkkk kksvjxzg cvshcbm dc x vm xvc smnd
+          j khgk jgkj ghfj.</p>
+         <a href="#">Learn more</a>
+      </div>
+      
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX Design</h2>
+          <p>wjha sm dvcs g nd xcbjl, sxc bhj sbdxvjch mbd sxc j
+            kj kjkjkhk hkkk kksvjxzg cvshcbm dc x vm xvc smnd
+            j khgk jgkj ghfj.</p>
+          <a href="#">Learn more</a>
+      </div>
+      
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>wjha sm dvcs g nd xcbjl, sxc bhj sbdxvjch mbd sxc j
+             kj kjkjkhk hkkk kksvjxzg cvshcbm dc x vm xvc smnd
+             j khgk jgkj ghfj.</p>
+          <a href="#">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!---------------------------portfolio------------------------------->
+ 
+<div id="portfolio">
+<div class="container">
+   <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+
+      <div class="work">
+        <img src="images/work-1.png">
+           <div class="layer">
+            <h2>Personal Portflio</h2>
+            <p>A portfolio project is made by HTML, CSS & Javascript.
+              It shows details about  my qualification, resume, projects, contact details and it also save the contact details in excel sheet where it saved the data.
+              </p>
+            <a href="file:///O:/project/personal_portfolio/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+      </div>
+
+      <div class="work">
+        <img src="images/restaurant.png">
+        <div class="layer">
+          <h2>Cyberrestaurant</h2>
+          <p>A restaurant web site has been created using HTML and CSS.
+            In Navigation Bar, Four Pages are linked.
+            Payment Gateway Integration.
+          </p>
+          <a href="http://127.0.0.1:5500/cyber%20restaurant/part1.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h2>Simple Calculator</h2>
+          <p>hrjkf fbhdf bchkfgbk djbvfg mncb, gcnb, jsdfgf dg ff esdfdrf ggggg</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+
+</div>
+
+<!------------------------contact------------------------->
+<div id="contact">
+  <div class="container">
+    
+    <div class="row">
+      <div class="contact-left">
+         <h1 class="sub-title">Contact Me</h1>
+         <p><i class="fa-sharp fa-solid fa-paper-plane"></i> siddhipanchabhai.com</p>
+         <p><i class="fa-solid fa-square-phone"></i> 9067958745 </p>
+         <div class="social-icons">
+            <a href="https://www.linkedin.com/in/siddhi-panchabhai-02bb2b217/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/siddhibp"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/siddp23/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/siddhi.panchabhai.77"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    <p>Copyright © Siddhi <i class="fa-solid fa-heart"></i></p>
+  </div>
+</div>
+
+
+<script>
+   
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   
+   function opentab(tabname)
+   {
+    for(tablink of tablinks)
+    {
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents)
+    {
+      tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");  /*it will display link and click on  skill education  and on experience*/
+    document.getElementById(tabname).classList.add("active-tab") ; /*on clicking this it will display experience detail and it will display education details*/
+  
+  }
+
+</script>
+<script>
+   var  sidemenu = document.getElementById("sidemenu");
+   function openmenu(){
+    sidemenu.style.right = '0';
+   }
+   function closemenu(){
+    sidemenu.style.right = '-200px';
+   }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxYFGnzoWdChxrVB5Pzy0zCRYBYq6kGYcZ5a8dwHhZPgXaopkPEGfSAAVFznzhIfzM9/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+           msg.innerHTML ="Message sent Successfully!! "
+           setTimeout(function(){
+           msg.innerHTML = ""
+      },5000)
+      form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
